@@ -160,6 +160,7 @@ nav {
 
 #burger-checkbox:checked ~ .nav-ul {
   height: 11.6rem; /* manual calc */
+  height: 15.4666rem;
 }
 
 @media (min-width: 576px) {
