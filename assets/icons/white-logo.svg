@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="300"
+   height="112"
+   viewBox="0 0 300 112"
+   sodipodi:docname="white-logo.svg"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   inkscape:export-filename="logo.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <rect
+       x="71.688312"
+       y="0"
+       width="167.68831"
+       height="91.792208"
+       id="rect1" />
+    <rect
+       x="71.688309"
+       y="0"
+       width="331.67407"
+       height="91.351412"
+       id="rect1-2" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="4.5372685"
+     inkscape:cx="158.68578"
+     inkscape:cy="30.524973"
+     inkscape:window-width="2560"
+     inkscape:window-height="1571"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1"
+     showgrid="false" />
+  <text
+     xml:space="preserve"
+     id="text1"
+     style="font-size:113.333px;line-height:0.85;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic';text-align:end;letter-spacing:1.2px;word-spacing:-2px;white-space:pre;shape-inside:url(#rect1-2);display:inline;vector-effect:non-scaling-stroke;fill:#ffffff;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1;-inkscape-stroke:hairline;paint-order:fill markers stroke;fill-opacity:0.99215698"
+     transform="translate(-122.12681,-2.7830911)"
+     x="0"
+     y="0"><tspan
+       x="141.72042"
+       y="80.225556"
+       id="tspan4"><tspan
+         style="font-family:Serif;-inkscape-font-specification:Serif"
+         id="tspan3">DELI</tspan></tspan></text>
+  <rect
+     style="display:inline;vector-effect:non-scaling-stroke;fill:#ffffff;fill-opacity:0.99215698;stroke:none;stroke-width:1.43266;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1;-inkscape-stroke:hairline;paint-order:fill markers stroke"
+     id="rect2"
+     width="289.80438"
+     height="4.9870129"
+     x="5.0978093"
+     y="82.126007" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;line-height:0.85;font-family:Serif;-inkscape-font-specification:Serif;text-align:end;letter-spacing:1.2px;word-spacing:-2px;text-anchor:end;vector-effect:non-scaling-stroke;fill:#ffffff;fill-opacity:0.99215698;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1;stroke-opacity:1;-inkscape-stroke:hairline;paint-order:fill markers stroke"
+     x="299.50598"
+     y="111.68112"
+     id="text2"><tspan
+       id="tspan2"
+       x="300.70596"
+       y="111.68112"
+       style="font-size:17.3333px;fill:#ffffff;fill-opacity:0.99215698;stroke:none;stroke-opacity:1"
+       sodipodi:role="line">YOUR F&amp;B SUPPLIER SOLUTIONS</tspan></text>
+</svg>

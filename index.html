@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <!-- nav -->
+      <nav>
+        <!-- logo -->
+        <!-- <a class="nav-logo-link" href="#">
+          <img class="nav-logo" src="./assets/icons/l3.svg" alt=""
+        /></a> -->
+        <!-- burger -->
+        <label class="burger-label" for="burger-checkbox">
+          <img class="burger" src="./assets/icons/b.svg" alt="" />
+        </label>
+        <input id="burger-checkbox" type="checkbox" />
+        <!-- menu -->
+        <ul class="nav-ul">
+          <li class="nav-li">
+            <a class="nav-item" href="./index.html">HOME</a>
+          </li>
+          <li class="nav-li">
+            <a class="nav-item" href="./about-us.html">ABOUT US</a>
+          </li>
+          <li class="nav-li">
+            <a class="nav-item" href="./products.html">PRODUCTS</a>
+          </li>
+          <li class="nav-li">
+            <a class="nav-item" href="./contact-us.html">CONTACT US</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- hero -->
+      <section class="hero">
+        <div class="hero-text-container">
+          <img src="./assets/icons/logo.svg" alt="" />
+        </div>
+      </section>
+      <!-- carousel -->
+      <section>
+        <div class="root">
+          <!-- carousel -->
+          <div class="carousel-container" id="carousel-1">
+            <div class="slide-container">
+              <!-- slide -->
+              <div class="slide show">
+                <img class="slide-img" src="./assets/images/c6.jpeg" alt="" />
+                <div class="slide-text-container">
+                  <h2>MARCEL'S</h2>
+                  <!-- <p>First slide description goes here.</p> -->
+                  <!-- <a class="btn secondary" href="#">Button</a> -->
+                </div>
+              </div>
+              <!-- slide -->
+              <div class="slide">
+                <img class="slide-img" src="./assets/images/c8.jpeg" alt="" />
+                <div class="slide-text-container">
+                  <h2>MAKES THE ORDINARY EXTRAORDINARY</h2>
+                  <!-- <p>Second slide description goes here.</p> -->
+                  <!-- <a class="btn secondary" href="#">Button</a> -->
+                </div>
+              </div>
+              <!-- slide -->
+              <div class="slide">
+                <img class="slide-img" src="./assets/images/c1.jpeg" alt="" />
+                <div class="slide-text-container">
+                  <h2>OUR TORTILLA CHIPS ARE THE BEST</h2>
+                  <p>With an all corn taste and authentic crunch.</p>
+                  <!-- <a class="btn secondary" href="#">Button</a> -->
+                </div>
+              </div>
+            </div>
+            <button class="prev-btn"><</button>
+            <button class="next-btn">></button>
+            <ul class="indicator-container"></ul>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="root pad text-center content-body">
+          <h2 class="lined">
+            <hr />
+            <span>OUR PRODUCTS</span>
+            <hr />
+          </h2>
+        </div>
+        <!-- img container-->
+        <div class="custom-grid">
+          <!-- img -->
+          <img class="custom-item i1" src="./assets/images/c1.jpeg" alt="" />
+          <!-- img -->
+          <img class="custom-item" src="./assets/images/c2.jpeg" alt="" />
+          <!-- img -->
+          <img class="custom-item" src="./assets/images/c3.jpeg" alt="" />
+          <!-- img -->
+          <img class="custom-item i2" src="./assets/images/c4.jpeg" alt="" />
+          <!-- img -->
+          <img class="custom-item i3" src="./assets/images/c5.jpeg" alt="" />
+        </div>
+      </section>
+    </main>
+    <footer class="black-container">
+      <section class="root content-body">
+        <div class="grid-50 pad">
+          <div class="content-body">
+            <!-- <h2>Section</h2> -->
+            <img
+              class="logo-small"
+              src="./assets/icons/white-logo.svg"
+              alt=""
+            />
+          </div>
+          <div class="content-body text-thin">
+            <h3 class="footer-heading">Company</h3>
+            <ul class="content-body no-list">
+              <li>
+                <a href="./index.html">Home</a>
+              </li>
+              <li>
+                <a href="./about-us.html">About Us</a>
+              </li>
+              <li>
+                <a href="./products.html">Products</a>
+              </li>
+              <li>
+                <a href="./contact-us.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <!-- <div class="content-body">
+              <h3 class="footer-heading">Contact Us</h3>
+              <ul class="content-body no-list">
+                <li>
+                  Lorem ipsum: <br />
+                  Morbi aliquam dapibus blandit
+                </li>
+                <li>
+                  Lorem ipsum: <br />
+                  Morbi aliquam dapibus blandit
+                </li>
+                <li>
+                  Lorem ipsum: <br />
+                  Morbi aliquam dapibus blandit
+                </li>
+              </ul>
+            </div> -->
+        </div>
+        <hr />
+        <p class="text-center">Deli Food and Beverage Pte. Ltd.</p>
+      </section>
+    </footer>
+    <script src="./js/carousel.js"></script>
+    <!-- <script src="./js/carousel-logo.js"></script> -->
+  </body>
+</html>

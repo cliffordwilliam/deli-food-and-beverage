@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <!-- nav -->
+      <nav>
+        <!-- logo -->
+        <a class="nav-logo-link" href="#">
+          <img class="nav-logo" src="./assets/icons/l3.svg" alt=""
+        /></a>
+        <!-- burger -->
+        <label class="burger-label" for="burger-checkbox">
+          <img class="burger" src="./assets/icons/b.svg" alt="" />
+        </label>
+        <input id="burger-checkbox" type="checkbox" />
+        <!-- menu -->
+        <ul class="nav-ul">
+          <li class="nav-li">
+            <a class="nav-item" href="#">Home</a>
+          </li>
+          <li class="nav-li">
+            <a class="nav-item" href="#">About Us</a>
+          </li>
+          <li class="nav-li">
+            <a class="nav-item" href="#">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- hero -->
+      <section class="hero">
+        <div class="hero-text-container">
+          <h1 class="hero-title">HERO TITLE</h1>
+          <p class="hero-paragraph">
+            Hero description goes here, more text over here.
+          </p>
+        </div>
+      </section>
+      <!-- text -->
+      <section>
+        <div class="root content-body pad">
+          <h2>Section Title</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+            imperdiet leo sed dapibus finibus. Aenean molestie lorem sed ipsum
+            porta fringilla. Pellentesque viverra eros eu hendrerit pulvinar.
+            Integer eros ipsum, dignissim sit amet posuere eu, molestie vitae
+            nulla. Aenean magna nulla, volutpat mollis lobortis ac, semper vel
+            libero. Nulla cursus nunc neque, in aliquet quam pulvinar sed. Orci
+            varius natoque penatibus et magnis dis parturient montes, nascetur
+            ridiculus mus. Nulla fringilla tristique magna, non vulputate metus
+            interdum quis. In ut ex vel mi mattis porta fringilla vel arcu.
+          </p>
+        </div>
+      </section>
+      <!-- img -->
+      <section>
+        <div class="root content-body pad">
+          <img class="img-small" src="./assets/images/f1.jpeg" alt="" />
+        </div>
+      </section>
+      <!-- half text and img -->
+      <section>
+        <div class="root">
+          <div class="grid-50 pad">
+            <div class="content-body">
+              <h2>Section Title</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+                imperdiet leo sed dapibus finibus. Aenean molestie lorem sed
+                ipsum porta fringilla. Pellentesque viverra eros eu hendrerit
+                pulvinar. Integer eros ipsum, dignissim sit amet posuere eu,
+                molestie vitae nulla. Aenean magna nulla, volutpat mollis
+                lobortis ac, semper vel libero. Nulla cursus nunc neque, in
+                aliquet quam pulvinar sed. Orci varius natoque penatibus et
+                magnis dis parturient montes, nascetur ridiculus mus. Nulla
+                fringilla tristique magna, non vulputate metus interdum quis. In
+                ut ex vel mi mattis porta fringilla vel arcu.
+              </p>
+            </div>
+            <img class="img-small" src="./assets/images/f1.jpeg" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- half text and double img -->
+      <section>
+        <div class="root">
+          <div class="grid-50 pad">
+            <div class="content-body">
+              <h2>Section Title</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+                imperdiet leo sed dapibus finibus. Aenean molestie lorem sed
+                ipsum porta fringilla. Pellentesque viverra eros eu hendrerit
+                pulvinar. Integer eros ipsum, dignissim sit amet posuere eu,
+                molestie vitae nulla. Aenean magna nulla, volutpat mollis
+                lobortis ac, semper vel libero. Nulla cursus nunc neque, in
+                aliquet quam pulvinar sed. Orci varius natoque penatibus et
+                magnis dis parturient montes, nascetur ridiculus mus. Nulla
+                fringilla tristique magna, non vulputate metus interdum quis. In
+                ut ex vel mi mattis porta fringilla vel arcu.
+              </p>
+            </div>
+            <div class="grid-50">
+              <img class="img-small" src="./assets/images/f2.jpeg" alt="" />
+              <img class="img-small" src="./assets/images/f3.jpeg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- half text span 2 and img -->
+      <section>
+        <div class="root">
+          <div class="grid-33 pad">
+            <div class="content-body col-span-2">
+              <h2>Section Title</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+                imperdiet leo sed dapibus finibus. Aenean molestie lorem sed
+                ipsum porta fringilla. Pellentesque viverra eros eu hendrerit
+                pulvinar. Integer eros ipsum, dignissim sit amet posuere eu,
+                molestie vitae nulla. Aenean magna nulla, volutpat mollis
+                lobortis ac, semper vel libero. Nulla cursus nunc neque, in
+                aliquet quam pulvinar sed. Orci varius natoque penatibus et
+                magnis dis parturient montes, nascetur ridiculus mus. Nulla
+                fringilla tristique magna, non vulputate metus interdum quis. In
+                ut ex vel mi mattis porta fringilla vel arcu.
+              </p>
+            </div>
+            <img class="img-small" src="./assets/images/f1.jpeg" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- carousel -->
+      <section>
+        <!-- carousel -->
+        <div class="carousel-container" id="carousel-1">
+          <div class="slide-container">
+            <!-- slide -->
+            <div class="slide show">
+              <img class="slide-img" src="./assets/images/f1.jpeg" alt="" />
+              <div class="slide-text-container">
+                <h2>SLIDE ONE</h2>
+                <p>First slide description goes here.</p>
+                <a class="btn secondary" href="#">Button</a>
+              </div>
+            </div>
+            <!-- slide -->
+            <div class="slide">
+              <img class="slide-img" src="./assets/images/f2.jpeg" alt="" />
+              <div class="slide-text-container">
+                <h2>SLIDE TWO</h2>
+                <p>Second slide description goes here.</p>
+                <a class="btn secondary" href="#">Button</a>
+              </div>
+            </div>
+            <!-- slide -->
+            <div class="slide">
+              <img class="slide-img" src="./assets/images/f3.jpeg" alt="" />
+              <div class="slide-text-container">
+                <h2>SLIDE THREE</h2>
+                <p>Third slide description goes here</p>
+                <a class="btn secondary" href="#">Button</a>
+              </div>
+            </div>
+          </div>
+          <button class="prev-btn"><</button>
+          <button class="next-btn">></button>
+          <ul class="indicator-container"></ul>
+        </div>
+      </section>
+      <!-- logo carousel -->
+      <section>
+        <!-- logo carousel -->
+        <div class="carousel-container" id="carousel-logo-1">
+          <div class="slide-container slide-logo-container">
+            <!-- slide -->
+            <div class="slide slide-logo show">
+              <div class="slide-logo-sub-container">
+                <img
+                  class="slide-logo-item"
+                  src="./assets/icons/l1.svg"
+                  alt=""
+                />
+                <img
+                  class="slide-logo-item"
+                  src="./assets/icons/l2.svg"
+                  alt=""
+                />
+                <img
+                  class="slide-logo-item"
+                  src="./assets/icons/l3.svg"
+                  alt=""
+                />
+                <img
+                  class="slide-logo-item"
+                  src="./assets/icons/l4.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <!-- slide -->
+            <div class="slide slide-logo">
+              <div class="slide-logo-sub-container">
+                <img
+                  class="slide-logo-item"
+                  src="./assets/icons/l5.svg"
+                  alt=""
+                />
+                <img
+                  class="slide-logo-item"
+                  src="./assets/icons/l6.svg"
+                  alt=""
+                />
+                <img
+                  class="slide-logo-item"
+                  src="./assets/icons/l7.svg"
+                  alt=""
+                />
+                <img
+                  class="slide-logo-item"
+                  src="./assets/icons/l8.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <!-- slide -->
+            <div class="slide slide-logo">
+              <div class="slide-logo-sub-container">
+                <img
+                  class="slide-logo-item"
+                  src="./assets/icons/l9.svg"
+                  alt=""
+                />
+                <img
+                  class="slide-logo-item"
+                  src="./assets/icons/l10.svg"
+                  alt=""
+                />
+                <img
+                  class="slide-logo-item"
+                  src="./assets/icons/l11.svg"
+                  alt=""
+                />
+                <img
+                  class="slide-logo-item"
+                  src="./assets/icons/l12.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- card container-->
+      <section>
+        <!-- card container-->
+        <div class="card-container grid-33">
+          <!-- card -->
+          <div class="card">
+            <img class="card-img" src="./assets/images/c1.jpeg" alt="" />
+            <div class="card-body">
+              <h2>Card Title</h2>
+              <p>
+                Card body content goes here, more description over here. Card
+                body content goes here, more description over here
+              </p>
+              <a class="btn" href="#">Button</a>
+            </div>
+          </div>
+          <!-- card -->
+          <div class="card">
+            <img class="card-img" src="./assets/images/c2.jpeg" alt="" />
+            <div class="card-body">
+              <h2>Card Title</h2>
+              <p>Card body content goes here, more description over here</p>
+              <a class="btn" href="#">Button</a>
+            </div>
+          </div>
+          <!-- card -->
+          <div class="card">
+            <img class="card-img" src="./assets/images/c3.jpeg" alt="" />
+            <div class="card-body">
+              <h2>Card Title</h2>
+              <p>Card body content goes here, more description over here</p>
+              <a class="btn" href="#">Button</a>
+            </div>
+          </div>
+          <!-- card -->
+          <div class="card">
+            <img class="card-img" src="./assets/images/c4.jpeg" alt="" />
+            <div class="card-body">
+              <h2>Card Title</h2>
+              <p>Card body content goes here, more description over here</p>
+              <a class="btn" href="#">Button</a>
+            </div>
+          </div>
+          <!-- card -->
+          <div class="card">
+            <img class="card-img" src="./assets/images/c5.jpeg" alt="" />
+            <div class="card-body">
+              <h2>Card Title</h2>
+              <p>Card body content goes here, more description over here</p>
+              <a class="btn" href="#">Button</a>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img" src="./assets/images/c6.jpeg" alt="" />
+            <div class="card-body">
+              <h2>Card Title</h2>
+              <p>Card body content goes here, more description over here</p>
+              <a class="btn" href="#">Button</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- card gallery + title + par + shape divider -->
+      <img class="shape_divider" src="./assets/shape_divider/t1.svg" alt="" />
+      <section class="black-container">
+        <div class="root pad text-center content-body text-white text-shadow">
+          <h2>Gallery Title Here</h2>
+          <p>Gallery description goes here, more text here.</p>
+        </div>
+        <!-- card container-->
+        <div class="card-container grid-33">
+          <!-- card -->
+          <div class="card">
+            <img class="card-img" src="./assets/images/c1.jpeg" alt="" />
+            <div class="card-body">
+              <h2>Card Title</h2>
+              <p>
+                Card body content goes here, more description over here. Card
+                body content goes here, more description over here
+              </p>
+              <a class="btn" href="#">Button</a>
+            </div>
+          </div>
+          <!-- card -->
+          <div class="card">
+            <img class="card-img" src="./assets/images/c2.jpeg" alt="" />
+            <div class="card-body">
+              <h2>Card Title</h2>
+              <p>Card body content goes here, more description over here</p>
+              <a class="btn" href="#">Button</a>
+            </div>
+          </div>
+          <!-- card -->
+          <div class="card">
+            <img class="card-img" src="./assets/images/c3.jpeg" alt="" />
+            <div class="card-body">
+              <h2>Card Title</h2>
+              <p>Card body content goes here, more description over here</p>
+              <a class="btn" href="#">Button</a>
+            </div>
+          </div>
+          <!-- card -->
+          <div class="card">
+            <img class="card-img" src="./assets/images/c4.jpeg" alt="" />
+            <div class="card-body">
+              <h2>Card Title</h2>
+              <p>Card body content goes here, more description over here</p>
+              <a class="btn" href="#">Button</a>
+            </div>
+          </div>
+          <!-- card -->
+          <div class="card">
+            <img class="card-img" src="./assets/images/c5.jpeg" alt="" />
+            <div class="card-body">
+              <h2>Card Title</h2>
+              <p>Card body content goes here, more description over here</p>
+              <a class="btn" href="#">Button</a>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img" src="./assets/images/c6.jpeg" alt="" />
+            <div class="card-body">
+              <h2>Card Title</h2>
+              <p>Card body content goes here, more description over here</p>
+              <a class="btn" href="#">Button</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <img class="shape_divider" src="./assets/shape_divider/b1.svg" alt="" />
+      <!-- half text and img -->
+      <section>
+        <div class="root">
+          <div class="grid-50 pad">
+            <div class="content-body">
+              <h2>Section Title</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+                imperdiet leo sed dapibus finibus. Aenean molestie lorem sed
+                ipsum porta fringilla. Pellentesque viverra eros eu hendrerit
+                pulvinar. Integer eros ipsum, dignissim sit amet posuere eu,
+                molestie vitae nulla. Aenean magna nulla, volutpat mollis
+                lobortis ac, semper vel libero. Nulla cursus nunc neque, in
+                aliquet quam pulvinar sed. Orci varius natoque penatibus et
+                magnis dis parturient montes, nascetur ridiculus mus. Nulla
+                fringilla tristique magna, non vulputate metus interdum quis. In
+                ut ex vel mi mattis porta fringilla vel arcu.
+              </p>
+            </div>
+            <img class="img-small" src="./assets/images/f1.jpeg" alt="" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section class="root">
+        <div class="grid-33 pad">
+          <div class="content-body text-white text-shadow">
+            <h2>Section</h2>
+            <img class="logo-small" src="./assets/icons/l1.svg" alt="" />
+          </div>
+          <div class="content-body text-white text-shadow">
+            <h2>Section</h2>
+            <ul class="content-body no-list">
+              <li>
+                Lorem ipsum: <br />
+                Morbi aliquam dapibus blandit
+              </li>
+              <li>
+                Lorem ipsum: <br />
+                Morbi aliquam dapibus blandit
+              </li>
+              <li>
+                Lorem ipsum: <br />
+                Morbi aliquam dapibus blandit
+              </li>
+            </ul>
+          </div>
+          <div class="content-body text-white text-shadow">
+            <h2>Section</h2>
+            <ul class="content-body no-list">
+              <li>
+                Lorem ipsum: <br />
+                Morbi aliquam dapibus blandit
+              </li>
+              <li>
+                Lorem ipsum: <br />
+                Morbi aliquam dapibus blandit
+              </li>
+              <li>
+                Lorem ipsum: <br />
+                Morbi aliquam dapibus blandit
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <script src="./js/carousel.js"></script>
+    <script src="./js/carousel-logo.js"></script>
+  </body>
+</html>
