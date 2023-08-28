@@ -741,7 +741,8 @@ footer {
 
 .logo-small {
   height: 3rem;
-  width: 10rem;
+  /* width: 10rem; */
+  width: 100%;
 }
 
 .no-list {
