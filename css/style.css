@@ -776,3 +776,9 @@ footer {
   min-height: 20rem;
   object-fit: cover;
 }
+
+.ul-hor {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
