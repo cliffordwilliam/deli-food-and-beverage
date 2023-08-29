@@ -78,7 +78,7 @@ header {
   z-index: 1;
 
   position: relative;
-  background-color: #fff;
+  background-color: #222;
   box-shadow: 0 1px 0px rgba(0, 0, 0, 0.12), 0 1px 0px rgba(0, 0, 0, 0.24);
 }
 nav {
@@ -128,7 +128,7 @@ nav {
   transition: height 0.35s ease;
   overflow: hidden;
 
-  background-color: #fff;
+  background-color: #222;
   box-shadow: 0 1px 0px rgba(0, 0, 0, 0.12), 0 1px 0px rgba(0, 0, 0, 0.24);
 }
 
@@ -149,7 +149,8 @@ nav {
   text-decoration: none;
   transition: color 0.15s ease;
 
-  color: #000;
+  /* color: #000; */
+  color: #ccc;
   /* font-size: 0.75rem;
   font-weight: bolder; */
 }
@@ -193,7 +194,7 @@ nav {
     text-decoration: none;
     transition: color 0.15s ease;
 
-    color: #000;
+    color: #ccc;
     /* font-size: 0.75rem;
     font-weight: bolder; */
   }
@@ -305,7 +306,7 @@ section.hero {
   min-height: 100%;
   min-width: 100%;
   z-index: -1;
-  filter: brightness(0.5);
+  /* filter: brightness(0.5); */
   object-fit: cover;
 }
 
@@ -583,7 +584,7 @@ section.hero {
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 20rem);
+    grid-template-rows: repeat(2, 20rem);
     gap: 1rem;
   }
 
