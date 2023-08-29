@@ -85,7 +85,8 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 75rem;
+  /* max-width: 75rem; */
+  max-width: 100rem;
   margin: 0 auto;
 }
 
@@ -500,6 +501,7 @@ section.hero {
   /* need grid classes */
   padding: 1rem;
   max-width: 75rem;
+  max-width: 100rem;
   margin: 0 auto;
 }
 
@@ -695,7 +697,8 @@ footer {
 
 /* content utils */
 .root {
-  max-width: 75rem;
+  /* max-width: 75rem; */
+  max-width: 100rem;
   margin: 0 auto;
 }
 
